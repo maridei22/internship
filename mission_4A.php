@@ -10,7 +10,7 @@
 
 <?php
 //データベースへの接続
-$dsn = 'データベース名';
+$dsn = 'mysql:dbname=データベース名;host=localhost';
 $user = 'ユーザー名';
 $password = 'パスワード';
 $pdo = new PDO($dsn,$user,$password);
@@ -31,7 +31,7 @@ $stmt = $pdo->query($sql);
 
 <?php
 //データベースへの接続
-$dsn = 'データベース名';
+$dsn = 'mysql:dbname=データベース名;host=localhost';
 $user = 'ユーザー名';
 $password = 'パスワード';
 $pdo = new PDO($dsn,$user,$password);
@@ -141,7 +141,7 @@ $results = $pdo->query($sql);
 <?php
 //削除処理
 //データベースへの接続
-$dsn = 'データベース名';
+$dsn = 'mysql:dbname=データベース名;host=localhost';
 $user = 'ユーザー名';
 $password = 'パスワード';
 $pdo = new PDO($dsn,$user,$password);
