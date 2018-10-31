@@ -1,0 +1,40 @@
+﻿
+img{
+	width: 400px;
+	height: 500px;
+	float: right;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+
+.header{
+	background-color: #FFDDFF;
+	height: 90px;
+}
+
+.header-logo{
+	font-size: 36px;
+	text-align: center;
+	padding: 20px 40px;
+	font-family: "Avenir Next";
+	color: #800000;
+}
+
+.main{
+	background-color: #FFFFAA;
+}
+
+.main-list{
+	padding-left: 30px;
+	max-width: 750px;
+}
+
+p1{
+	color: #800080;
+}
+
+.main-form{
+	padding-left: 60px;
+}
+
